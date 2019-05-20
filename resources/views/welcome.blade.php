@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Towhid Knitware Ltd.
+                    Towhid Knitware Ltd...
                 </div>
 
                 <div class="links">
