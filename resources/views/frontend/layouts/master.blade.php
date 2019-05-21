@@ -22,8 +22,14 @@
     <link rel="stylesheet" href="{{asset('assets/css/animations.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/fonts.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/main.css')}}" class="color-switcher-link">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}" >
     <link rel="stylesheet" href="{{asset('assets/css/shop.css')}}" class="color-switcher-link">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+
+     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
     {{-- <script src="{{asset('assets/js/vendor/modernizr-2.6.2.min.js')}}"></script> --}}
     <!--[if lt IE 9]>
         <script src="js/vendor/html5shiv.min.js"></script>
@@ -89,73 +95,7 @@
             
             @yield('content')
 
-            <footer class="page_footer ls section_padding_top_150 section_padding_bottom_140 columns_margin_bottom_30">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 col-md-4 text-center text-md-left">
-                            <div class="widget widget_text">
-                                <div class="logo"> <img src="{{asset('assets/images/logo.png')}}" alt=""> </div>
-                                <ul class="list-unstyled greylinks">
-                                    <li>
-                                        <div class="media small-media">
-                                            <div class="media-left"> <i class="qtyler-phone"></i> </div>
-                                            <div class="media-body"> 0-80vv-123-4567 </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="media small-media">
-                                            <div class="media-left"> <i class="qtyler-envelope"></i> </div>
-                                            <div class="media-body"> <a href="mailto:#">qtyler@example.com</a> </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="media small-media">
-                                            <div class="media-left"> <i class="qtyler-map-marker"></i> </div>
-                                            <div class="media-body"> 248 Hedge St, NJ 07201 </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-4 text-center text-md-left">
-                            <div class="widget widget_text">
-                                <h3 class="widget-title">Hours</h3>
-                                <ul class="feature-list">
-                                    <li> <span>Weekdays</span> <span>8:00 - 20:00</span> </li>
-                                    <li> <span>Saturday</span> <span>9:00 - 16:00</span> </li>
-                                    <li> <span>Sunday</span> <span>Closed</span> </li>
-                                    <li> <span>Holidays</span> <span>10:00 - 14:00</span> </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-4 text-center text-md-left">
-                            <div class="widget widget_text">
-                                <h3 class="widget-title">Details</h3>
-                                <ul class="list-unstyled greylinks">
-                                    <li>
-                                        <div class="media small-media">
-                                            <div class="media-left"> <i class="qtyler-delivery"></i> </div>
-                                            <div class="media-body"> Worldwide 100% Free Shipping </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="media small-media">
-                                            <div class="media-left"> <i class="qtyler-headphones"></i> </div>
-                                            <div class="media-body"> Fast and Excellent Customer Support </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="media small-media">
-                                            <div class="media-left"> <i class="qtyler-money"></i> </div>
-                                            <div class="media-body"> 100% Moneyback Guarantee </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
+            @include('frontend.layouts.footer')
             <section class="page_copyright ds background_cover section_padding_top_10 section_padding_bottom_10">
                 <div class="container">
                     <div class="row">
@@ -173,7 +113,20 @@
     <script src="{{asset('assets/js/selectize.min.js')}}"></script>
     
     <script src="{{asset('assets/js/main.js')}}"></script>
+
+
+    {{-- image gellary --}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
+    {{-- end image gellary --}}
+
+
     {{-- <script src="{{asset('assets/js/switcher.js')}}"></script> --}}
+
+
+    s
 </body>
 
 
