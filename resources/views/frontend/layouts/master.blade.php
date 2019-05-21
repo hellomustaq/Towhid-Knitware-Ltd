@@ -99,7 +99,7 @@
             <section class="page_copyright ds background_cover section_padding_top_10 section_padding_bottom_10">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xs-12 text-center"> &copy; Copyright 2018 All Rights Reserved </div>
+                        <div class="col-xs-12 text-center"> &copy; Copyright 2019 Towhid Group. All Rights Reserved </div>
                     </div>
                 </div>
             </section>
@@ -124,9 +124,6 @@
 
 
     {{-- <script src="{{asset('assets/js/switcher.js')}}"></script> --}}
-
-
-    s
 </body>
 
 
