@@ -42,7 +42,7 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
-<section class="ls ">
+<section class="ls mt-50">
     <div class=" gallery-container">
         <h1>Our Portfolio</h1>
         <p class="page-description text-center">You ware, We made!</p>
@@ -100,7 +100,7 @@
 </section>
 
 
-<section class="ls ">
+<section class="ls mt-50">
             <h2 class="text-center">Features</h2>
             <div class="row">
                 <div class="col-md-12">
@@ -150,7 +150,49 @@
             </div>
 </section>
 
-<section id="gallery" class="ls fluid_padding_0 columns_padding_0">
+
+<section class="ls mt-50">
+    <h2 class="text-center padd-30">Philosophy</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="thumbnail mar">
+              <div class="caption">
+                <span><i class="fa fa-globe fa-5x theme-color"></i></span>
+                
+                <h3>Our Vision</h3>
+                <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet</p>
+                
+              </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="thumbnail mar">
+              <div class="caption">
+                <span><i class="fa fa-rocket fa-5x theme-color"></i></span>
+                <h3>Our Mission</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet</p>
+                
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ls mt-50 padd">
+    <h2 class="text-center padd-30">Our Proud Partners</h2>
+    <div class="customer-logos">
+  <div class="slide"><img src="{{asset('assets/images/partners/01.jpg')}}"></div>
+  <div class="slide"><img src="{{asset('assets/images/partners/02.jpg')}}"></div>
+  <div class="slide"><img src="{{asset('assets/images/partners/03.jpg')}}"></div>
+  <div class="slide"><img src="{{asset('assets/images/partners/04.jpg')}}"></div>
+  <div class="slide"><img src="{{asset('assets/images/partners/05.jpg')}}"></div>
+  <div class="slide"><img src="{{asset('assets/images/partners/06.jpg')}}"></div>
+  <div class="slide"><img src="{{asset('assets/images/partners/07.jpg')}}"></div>
+  <div class="slide"><img src="{{asset('assets/images/partners/08.jpg')}}"></div>
+</div>
+</section>
+
+{{-- <section id="gallery" class="ls fluid_padding_0 columns_padding_0 mt-50">
     <div class="container-fluid">
         <div class="row">
             <div class="col-xs-12">
@@ -208,5 +250,6 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
+
 @endsection

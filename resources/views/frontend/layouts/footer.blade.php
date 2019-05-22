@@ -3,7 +3,7 @@
 					<div class="row">
 						<div class="col-md-4 col-sm-12">
 							<div class="widget widget_text">
-								<div class="logo logo_with_text"> <img src="{{asset('assets/images/logo-dark.png')}}" alt=""> </div>
+								<div class="logo logo_with_text"> <img src="{{asset('images/towhidLogo.png')}}" alt=""> </div>
 
 								<p> Aliquam commodo cursus nulla, eget ornare velit gravida ac. Curabitur accumsan nibh sed turpis vehicula egestas. Phasellus non tristique nisi, et dapibus massa. </p>
 							</div>

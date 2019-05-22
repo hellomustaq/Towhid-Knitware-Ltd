@@ -4,13 +4,13 @@
                         <div class="col-xs-12 col-md-6 col-lg-4 text-center text-md-left">
                             <div class="inline-content grey"> <span>
                         <i class="fa fa-phone highlight rightpadding_5" aria-hidden="true"></i>
-                        Call Us 24/7   0-800-478-3421
+                        Call Us +88 016738843**
                     </span> </div>
                         </div>
                         <div class="col-xs-12 col-md-6 col-lg-4 col-lg-push-4 text-center text-md-right">
                             <div class="inline-content grey darklinks"> <span>
                         <i class="fa fa-map-marker highlight rightpadding_5" aria-hidden="true"></i>
-                        158 Balm Street   San Diego, CA
+                        Barabag Mirpur-2, Dhaka-1216
                     </span> </div>
                         </div>
                         <div class="col-xs-12 col-lg-4 col-lg-pull-4 text-center">
@@ -30,7 +30,7 @@
                     <div class="row">
                         <div class="col-sm-12 display-flex v-center">
                             <div class="header_left_logo display_table_cell"> <a href="index.html" class="logo">
-                        <img src="{{asset('assets/images/logo.png')}}" alt="">
+                        <img src="{{asset('images/towhidLogo.png')}}" alt="">
                     </a> </div>
                             <div class="header_mainmenu display_table_cell text-center">
                                 <!-- main nav start -->
