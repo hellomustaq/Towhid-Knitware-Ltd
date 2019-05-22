@@ -155,7 +155,7 @@
     <h2 class="text-center padd-30">Philosophy</h2>
     <div class="row">
         <div class="col-md-6">
-            <div class="thumbnail mar">
+            <div class="thumbnail mar ez-animate" data-animation="zoomIn">
               <div class="caption">
                 <span><i class="fa fa-globe fa-5x theme-color"></i></span>
                 
@@ -166,7 +166,7 @@
             </div>
         </div>
         <div class="col-md-6">
-            <div class="thumbnail mar">
+            <div class="thumbnail mar ez-animate" data-animation="zoomIn">
               <div class="caption">
                 <span><i class="fa fa-rocket fa-5x theme-color"></i></span>
                 <h3>Our Mission</h3>
