@@ -19,6 +19,7 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     {{-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> --}}
     <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" href="{{asset('assets/css/animations.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/fonts.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/main.css')}}" class="color-switcher-link">
@@ -38,7 +39,7 @@
     <![endif]-->
 </head>
 
-<body style="background: url('images/bg3.jpg');">
+<body style="background: url('images/bg.jpg');">
     <!--[if lt IE 9]>
         <div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
     <![endif]-->
@@ -121,6 +122,19 @@
         baguetteBox.run('.tz-gallery');
     </script>
     {{-- end image gellary --}}
+
+
+    {{-- waypoint with animated --}}
+    <script src="{{asset('js/jquery.waypoints.min.js')}}"></script>
+    <script src="{{asset('js/easy-waypoint-animate.js')}}"></script>
+    <script>
+        $(document).ready(function() {
+            InitWaypointAnimations({
+                offset: "70%",
+            });
+        });
+    </script>
+    {{--eof waypoint with animated --}}
 
 
     {{-- <script src="{{asset('assets/js/switcher.js')}}"></script> --}}
