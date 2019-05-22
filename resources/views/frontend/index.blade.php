@@ -98,43 +98,58 @@
         </div>
     </div>
 </section>
-<section class="ls section_padding_top_150 section_padding_bottom_150">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <h3>Dolores Vel Reiciendis</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere dolorem nisi unde itaque, aliquid. Necessitatibus, dolorem tempora repudiandae modi. Quis, esse eveniet suscipit! Enim dicta voluptate quas ea, facilis repellat!</p>
-                    </div>
-                    <div class="col-sm-6">
-                        <h3>Reprehenderit Nemo Alias</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut doloribus obcaecati incidunt quas iusto eos nobis. Laudantium veniam, reprehenderit nemo alias ducimus, illo, omnis voluptas doloribus cupiditate repudiandae porro numquam?</p>
+
+
+<section class="ls ">
+            <h2 class="text-center">Features</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-timeline2">
+                        <div class="timeline ">
+                            <span class="icon fa fa-globe"></span>
+                            <a href="#" class="timeline-content ez-animate" data-animation="lightSpeedIn">
+                                <h3 class=" text-center title">Competitive price</h3><br>
+                                <img style="border-radius: 10px;" src="{{asset('assets/images/services/01.jpg')}}" alt="">
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.
+                                </p>
+                            </a>
+                        </div>
+                        <div class="timeline">
+                            <span class="icon fa fa-rocket"></span>
+                            <a href="#" class="timeline-content ez-animate" data-animation="lightSpeedIn">
+                                <h3 class=" text-center title">Time & Action Plan</h3><br>
+                                <img style="border-radius: 10px;" src="{{asset('assets/images/services/02.jpg')}}" alt="">
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.
+                                </p>
+                            </a>
+                        </div>
+                        <div class="timeline">
+                            <span class="icon fa fa-briefcase"></span>
+                            <a href="#" class="timeline-content ez-animate" data-animation="lightSpeedIn">
+                                <h3 class=" text-center title">Quality</h3><br>
+                                <img style="border-radius: 10px;" src="{{asset('assets/images/services/03.jpg')}}" alt="">
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.
+                                </p>
+                            </a>
+                        </div>
+                        <div class="timeline">
+                            <span class="icon fa fa-mobile"></span>
+                            <a href="#" class="timeline-content ez-animate" data-animation="lightSpeedIn">
+                                <h3 class=" text-center title">Service</h3><br>
+                                <img style="border-radius: 10px;" src="{{asset('assets/images/services/04.jpg')}}" alt="">
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.
+                                </p>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <h3>Laboriosam ducimus</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere dolorem nisi unde itaque, aliquid. Necessitatibus, dolorem tempora repudiandae modi. Quis, esse eveniet suscipit! Enim dicta voluptate quas ea, facilis repellat!</p>
-                    </div>
-                    <div class="col-sm-4">
-                        <h3>Necessitatibus Saepe</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut doloribus obcaecati incidunt quas iusto eos nobis. Laudantium veniam, reprehenderit nemo alias ducimus, illo, omnis voluptas doloribus cupiditate repudiandae porro numquam?</p>
-                    </div>
-                    <div class="col-sm-4">
-                        <h3>Maxime Fugiat Error</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut doloribus obcaecati incidunt quas iusto eos nobis. Laudantium veniam, reprehenderit nemo alias ducimus, illo, omnis voluptas doloribus cupiditate repudiandae porro.</p>
-                    </div>
-                </div>
-                <h3>Consectetur Adipisicing Elit</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore in blanditiis tempora aliquam omnis recusandae maxime fugiat error dolores vel reiciendis quia, laboriosam dolorum, ipsa corrupti. Laboriosam odio ducimus harum. Lorem ipsum dolor
-                sit amet, consectetur adipisicing elit. Distinctio assumenda vitae iure, totam laboriosam voluptatibus delectus autem pariatur excepturi eligendi natus unde. Numquam vel quia dolore tempore consequuntur nobis architecto.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo repellendus, repellat rem debitis id, harum ipsa nostrum, aut eius atque repudiandae officia nemo. Laborum fugit maiores aut non sit alias. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit. Dignissimos voluptas nihil tenetur quibusdam, laborum sed id laboriosam obcaecati corporis necessitatibus saepe voluptatem incidunt, cumque aperiam, quam nisi? Numquam, ullam, alias.</p>
             </div>
-        </div>
-    </div>
 </section>
+
 <section id="gallery" class="ls fluid_padding_0 columns_padding_0">
     <div class="container-fluid">
         <div class="row">
