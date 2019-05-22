@@ -9,7 +9,7 @@
 
 <!-- Mirrored from webdesign-finder.com/html/qtyler/header2.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 16 May 2019 18:16:52 GMT -->
 <head>
-    <title>Qtyler</title>
+    <title>Towhid Group</title>
     <meta charset="utf-8">
     <!--[if IE]>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,7 +38,7 @@
     <![endif]-->
 </head>
 
-<body>
+<body style="background: url('images/bg3.jpg');">
     <!--[if lt IE 9]>
         <div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
     <![endif]-->
