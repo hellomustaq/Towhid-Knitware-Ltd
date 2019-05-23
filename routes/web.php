@@ -18,6 +18,9 @@ Route::get('/', function () {
 Route::get('/about-us', function () {
     return view('frontend.about-us');
 });
+Route::get('/contact', function () {
+    return view('frontend.contact');
+});
 
 Auth::routes();
 

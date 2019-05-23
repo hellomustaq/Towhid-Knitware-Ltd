@@ -110,13 +110,17 @@
                                         <li> 
                                             <a href="{{url('/about-us')}}">About</a>
                                         </li>
+                                        <li> 
+                                            <a href="{{url('/contact')}}">Contact</a>
+                                        </li>
+
                                         <!-- eof contacts -->
                                     </ul>
                                 </nav>
                                 <!-- eof main nav -->
                                 <!-- header toggler --><span class="toggle_menu"><span></span></span>
                             </div>
-                            <div class="header_right_buttons display_table_cell text-right hidden-xs"> <a href="contact.html" class="theme_button color1">Contact</a> </div>
+                            <div class="header_right_buttons display_table_cell text-right hidden-xs"> <a href="{{url('/contact')}}" class="theme_button color1">Contact</a> </div>
                         </div>
                     </div>
                 </div>
