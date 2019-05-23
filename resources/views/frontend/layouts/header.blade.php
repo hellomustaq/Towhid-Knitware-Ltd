@@ -1,3 +1,8 @@
+@php
+    $mCategoryies=App\MotherCategory::all();
+@endphp
+
+
 <section class="page_topline ls section_padding_top_15 section_padding_bottom_15 columns_margin_0">
     <div class="container-fluid">
         <div class="row flex-wrap v-center">
@@ -45,83 +50,16 @@
                     <div class="mega-menu">
                         <ul class="mega-menu-row">
                             <div class="row">
+                                @foreach($mCategoryies as $mCategory)
                                 <div class="col-md-2">
-                                    <h6 class="paddingForMega">KNITWARE</h6>
+                                    <h6 class="paddingForMega">{{$mCategory->name}}</h6>
                                     <div class="paddingForMega">
-                                        <li>Short sleev Tshirt</li>
-                                        <li>Long sleev Tshirt</li>
-                                        <li>Ladies Tshirt</li>
-                                        <li>Kids Tshirt</li>
-                                        <li>Mens Long Polo</li>
-                                        <li>Mens Short Polo</li>
+                                        @foreach($mCategory->categories as $category)
+                                        <a href="{{route('products',$category->id)}}"><li>{{$category->name}}</li></a>
+                                        @endforeach
                                     </div>
                                 </div>
-                                <div class="col-md-2">
-                                    <h6 class="paddingForMega">KNITWARE</h6>
-                                    <div class="paddingForMega">
-                                        <li>Short sleev Tshirt</li>
-                                        <li>Long sleev Tshirt</li>
-                                        <li>Ladies Tshirt</li>
-                                        <li>Kids Tshirt</li>
-                                        <li>Mens Long Polo</li>
-                                        <li>Mens Short Polo</li>
-                                    </div>
-                                </div>
-                                <div class="col-md-2">
-                                    <h6 class="paddingForMega">KNITWARE</h6>
-                                    <div class="paddingForMega">
-                                        <li>Short sleev Tshirt</li>
-                                        <li>Long sleev Tshirt</li>
-                                        <li>Ladies Tshirt</li>
-                                        <li>Kids Tshirt</li>
-                                        <li>Mens Long Polo</li>
-                                        <li>Mens Short Polo</li>
-                                    </div>
-                                </div>
-                                <div class="col-md-2">
-                                    <h6 class="paddingForMega">KNITWARE</h6>
-                                    <div class="paddingForMega">
-                                        <li>Short sleev Tshirt</li>
-                                        <li>Long sleev Tshirt</li>
-                                        <li>Ladies Tshirt</li>
-                                        <li>Kids Tshirt</li>
-                                        <li>Mens Long Polo</li>
-                                        <li>Mens Short Polo</li>
-                                    </div>
-                                </div>
-                                <div class="col-md-2">
-                                    <h6 class="paddingForMega">KNITWARE</h6>
-                                    <div class="paddingForMega">
-                                        <li>Short sleev Tshirt</li>
-                                        <li>Long sleev Tshirt</li>
-                                        <li>Ladies Tshirt</li>
-                                        <li>Kids Tshirt</li>
-                                        <li>Mens Long Polo</li>
-                                        <li>Mens Short Polo</li>
-                                    </div>
-                                </div>
-                                <div class="col-md-2">
-                                    <h6 class="paddingForMega">KNITWARE</h6>
-                                    <div class="paddingForMega">
-                                        <li>Short sleev Tshirt</li>
-                                        <li>Long sleev Tshirt</li>
-                                        <li>Ladies Tshirt</li>
-                                        <li>Kids Tshirt</li>
-                                        <li>Mens Long Polo</li>
-                                        <li>Mens Short Polo</li>
-                                    </div>
-                                </div>
-                                <div class="col-md-2">
-                                    <h6 class="paddingForMega">KNITWARE</h6>
-                                    <div class="paddingForMega">
-                                        <li>Short sleev Tshirt</li>
-                                        <li>Long sleev Tshirt</li>
-                                        <li>Ladies Tshirt</li>
-                                        <li>Kids Tshirt</li>
-                                        <li>Mens Long Polo</li>
-                                        <li>Mens Short Polo</li>
-                                    </div>
-                                </div>
+                                @endforeach
                             </div>
                         </ul>
                     </div>

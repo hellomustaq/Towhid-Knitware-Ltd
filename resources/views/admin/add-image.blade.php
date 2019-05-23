@@ -20,20 +20,10 @@
 						<div class="form-group">
 							<div class="input-group input-group-flat m-t-20">
 								<span class="input-group-btn"><span class="btn btn-primary btn-disabled" ><i class="ti-search"></i></span></span>
-								<select name="catId" class="form-control">
+								<select name="catId" class="form-control" required="">
 									<option value="" selected="" disabled="">--Select a Category--</option>
 									@foreach($categories as $category)
 									<option value="{{$category->id}}">{{$category->name}}</option>
-									@endforeach
-								</select>
-								
-							</div>
-							<div class="input-group input-group-flat m-t-20">
-								<span class="input-group-btn"><span class="btn btn-primary btn-disabled" ><i class="ti-search"></i></span></span>
-								<select name="bId" class="form-control">
-									<option value="" selected="" disabled="">--Select a Brand--</option>
-									@foreach($brands as $brand)
-									<option value="{{$brand->id}}">{{$brand->name}}</option>
 									@endforeach
 								</select>
 								

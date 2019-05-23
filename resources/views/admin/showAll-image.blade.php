@@ -4,12 +4,17 @@
     <div class="col-md-1"></div>
     <div class="col-md-10">
         <div class="tz-gallery">
+            <h2 class="text-center">Showing "{{$category->name}}"</h2>
             <div class="row">
                 @foreach($images as $image)
                 <div class="animated  col-sm-6 col-md-4">
-                    <a class="lightbox" href="{{asset('images/uploaded/'.$image->name)}}">
-                        <img src="{{asset('images/uploaded/'.$image->name)}}" alt="Park">
+                    <div style="margin: 10px;">
+                        <a class="lightbox" href="{{asset('images/products/'.$image->name)}}">
+                        <img src="{{asset('images/products/'.$image->name)}}" alt="Park">
                     </a>
+                    <a id="deleteBtn" data-id="{{$image->id}}" style="margin-top: -30px;" href="" class="btn btn-block btn-danger">Delete</a>
+                    </div>
+                    
                 </div>
                 @endforeach
                 
@@ -21,24 +26,25 @@
 @endsection
 @section('script')
 <script>
-// $(document).on('click', '#deleteBtn', function(el) {
-//     var postId = $(this).data("id");
-//     swal({
-//       title: "Are you sure?",
-//       text: "Once deleted, you will not be able to recover this imaginary file!",
-//       icon: "warning",
-//       buttons: true,
-//       dangerMode: true,
-//     })
-//     .then((willDelete) => {
-//       if (willDelete) {
-//         swal("Deleting...", {
-//           icon: "success",
-//         });
-//         window.location.href = window.location.href = "brand/delete/" + postId;
-//       }
-//     });
-// });
+$(document).on('click', '#deleteBtn', function(el) {
+    el.preventDefault();
+    var postId = $(this).data("id");
+    swal({
+      title: "Are you sure?",
+      text: "Once deleted, you will not be able to recover this imaginary file!",
+      icon: "warning",
+      buttons: true,
+      dangerMode: true,
+    })
+    .then((willDelete) => {
+      if (willDelete) {
+        swal("Deleting...", {
+          icon: "success",
+        });
+        window.location.href = window.location.href = "delete/" + postId;
+      }
+    });
+});
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
 <script>
