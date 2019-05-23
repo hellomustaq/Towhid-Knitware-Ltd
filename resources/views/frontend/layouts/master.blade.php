@@ -25,6 +25,8 @@
     <link rel="stylesheet" href="{{asset('assets/css/main.css')}}" class="color-switcher-link">
     <link rel="stylesheet" href="{{asset('css/style.css')}}" >
     <link rel="stylesheet" href="{{asset('assets/css/shop.css')}}" class="color-switcher-link">
+
+    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
 
