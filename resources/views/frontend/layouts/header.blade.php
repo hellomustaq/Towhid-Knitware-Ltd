@@ -37,13 +37,13 @@
                                 <nav class="mainmenu_wrapper">
                                     <ul class="mainmenu nav sf-menu">
                                         
-                                        <li class="active"> <a href="index-2.html">Home</a>
+                                        <li class="active"> <a href="{{url('/')}}">Home</a>
                                         </li>
                                         <li class="active"> <a href="index-2.html">Service</a>
                                             <ul>
                                                 <li> <a href="index-2.html">Home</a> </li>
-                                                <li> <a href="index-static.html">Home static intro</a> </li>
-                                                <li> <a href="index-single.html">Home single page</a> </li>
+                                                <li> <a href="">Home static intro</a> </li>
+                                                <li> <a href="">Home single page</a> </li>
                                             </ul>
                                         </li>
                                         <li> <a href="#">Products</a>
@@ -108,7 +108,7 @@
                                         <!-- eof features -->
                                         <!-- contacts -->
                                         <li> 
-                                            <a href="contact.html">About</a>
+                                            <a href="{{url('/about-us')}}">About</a>
                                         </li>
                                         <!-- eof contacts -->
                                     </ul>
