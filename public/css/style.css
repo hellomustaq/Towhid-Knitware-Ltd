@@ -5,9 +5,18 @@
     background-color: #f36167;
 }
 
+.theme-white{
+    color: white;
+}
+
 
 @media (min-width: 1025px) {
   
+    .ifreamsize{
+        height: 800px;
+        width: 500px;
+    }
+
   .mar{
     margin: 10px;
     }
@@ -52,6 +61,22 @@
 
 }
 /*eof icon with circle*/
+
+.map-responsive{
+    background: white;
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:750;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
 
 
 
