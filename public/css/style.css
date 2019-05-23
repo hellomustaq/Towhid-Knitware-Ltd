@@ -10,6 +10,23 @@
 }
 
 
+/*hover with animated css*/
+.onhover-flip:hover {
+    -webkit-animation: flip 1s;
+    animation: flip 1s;
+}
+/*eof hover with animated css*/
+
+
+.paddingForMega{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.mar{
+    margin: 5px;
+    }
+
 @media (min-width: 1025px) {
   
     .ifreamsize{

@@ -6,6 +6,11 @@
 								<div class="logo logo_with_text"> <img src="{{asset('images/towhidLogo.png')}}" alt=""> </div>
 
 								<p> Aliquam commodo cursus nulla, eget ornare velit gravida ac. Curabitur accumsan nibh sed turpis vehicula egestas. Phasellus non tristique nisi, et dapibus massa. </p>
+								<a href=""><i class="ion-logo-facebook fa-2x mar onhover-flip"></i></a>
+								<a href=""><i class="ion-logo-twitter fa-2x mar"></i></a>
+								<a href=""><i class="ion-logo-instagram fa-2x mar"></i></a>
+								<a href=""><i class="ion-logo-linkedin fa-2x mar"></i></a>
+								<a href=""><i class="ion-logo-pinterest fa-2x mar"></i></a>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6">
@@ -16,19 +21,19 @@
 										<div class="media-left media-middle"> <img src="images/recent_post1.jpg" alt="">
 										 </div>
 										<div class="media-body media-middle">
-											<div class="entry-meta small-text highlightlinks"> 
-												<span class="date">
-													<a href="blog-single-left.html">
-														<time datetime="2017-10-03T08:50:40+00:00">Pages</time>
-													</a>
-    											</span> 
-    										</div>
-											<p class="darklinks color2"> 
+											<p style="line-height: 30px;" class="darklinks color2"> 
+												<a href="blog-single-left.html">Home</a>
+											 </p>
+											 <p style="line-height: 30px;" class="darklinks color2"> 
+												<a href="blog-single-left.html">Products</a>
+											 </p>
+											 <p style="line-height: 30px;" class="darklinks color2"> 
 												<a href="blog-single-left.html">About Us</a>
 											 </p>
-											<p class="darklinks color2"> 
+											<p style="line-height: 30px;" class="darklinks color2"> 
 												<a href="blog-single-left.html">Contact Us</a> 
 											</p>
+											<p style="line-height: 30px;">103, Shahajalal Tower, Barabag Mirpur-2, Dhaka-1216</p>
 
 										</div>
 									</li>
