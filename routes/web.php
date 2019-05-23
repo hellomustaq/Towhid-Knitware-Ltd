@@ -1,5 +1,7 @@
 <?php
 
+use App\Category;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,6 +24,11 @@ Route::get('/contact', function () {
     return view('frontend.contact');
 });
 
+Route::get('/products/{id}', function ($id) {
+	$category=Category::find($id);
+    return view('frontend.products',compact('category'));
+})->name('products');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
@@ -35,6 +42,10 @@ Route::group(['prefix'=>'admin','middleware'=>'auth'], function(){
 	Route::get('/mother-category/delete/{id}','MotherCategoryController@delete')->name('mother-category.delete');
 
 	Route::resource('category','CategoryController');
-	// Route::get('/category/edit/{id}','CategoryController@editt')->name('category.edit.custom');
 	Route::get('/category/delete/{id}','CategoryController@delete')->name('category.delete');
+
+	Route::get('image/showSpecific/','ImageController@showSpecific')->name('image.show.specific');
+	Route::get('image/delete/{id}','ImageController@delete')->name('image.del');
+	Route::resource('image','ImageController');
+	
 });
