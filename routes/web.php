@@ -25,3 +25,16 @@ Route::get('/contact', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+Route::group(['prefix'=>'admin','middleware'=>'auth'], function(){
+
+	Route::get('/home','HomeController@index');
+	Route::get('/logout','Auth\LoginController@logout')->name('logout');
+	Route::resource('mother-category','MotherCategoryController');
+	Route::get('/mother-category/delete/{id}','MotherCategoryController@delete')->name('mother-category.delete');
+
+	Route::resource('category','CategoryController');
+	// Route::get('/category/edit/{id}','CategoryController@editt')->name('category.edit.custom');
+	Route::get('/category/delete/{id}','CategoryController@delete')->name('category.delete');
+});

@@ -22,16 +22,16 @@
 										 </div>
 										<div class="media-body media-middle">
 											<p style="line-height: 30px;" class="darklinks color2"> 
-												<a href="blog-single-left.html">Home</a>
+												<a href="{{url('/')}}">Home</a>
 											 </p>
 											 <p style="line-height: 30px;" class="darklinks color2"> 
-												<a href="blog-single-left.html">Products</a>
+												<a href="#">Products</a>
 											 </p>
 											 <p style="line-height: 30px;" class="darklinks color2"> 
-												<a href="blog-single-left.html">About Us</a>
+												<a href="{{url('/about-us')}}">About Us</a>
 											 </p>
 											<p style="line-height: 30px;" class="darklinks color2"> 
-												<a href="blog-single-left.html">Contact Us</a> 
+												<a href="{{url('/contact')}}">Contact Us</a> 
 											</p>
 											<p style="line-height: 30px;">103, Shahajalal Tower, Barabag Mirpur-2, Dhaka-1216</p>
 
