@@ -12,12 +12,12 @@
 
 
 @media (min-width: 1200px){
-.listsMega {
-    color: #363636;
-    letter-spacing: unset !important;
-    font-weight: normal !important;
-    font-size: 13px !important;
-}
+    .listsMega {
+        color: #363636;
+        letter-spacing: unset !important;
+        font-weight: normal !important;
+        font-size: 13px !important;
+    }
 }
 
 

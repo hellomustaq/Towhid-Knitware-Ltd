@@ -47,6 +47,19 @@
                         </ul>
                     </li>
                     <li> <a href="#">Products <i class="ion-md-arrow-dropdown"></i></a>
+
+                    <style>
+                        @media (min-width: 1200px){
+                            .listsMega {
+                                color: #363636;
+                                letter-spacing: unset !important;
+                                font-weight: normal !important;
+                                font-size: 13px !important;
+                            }
+                        }
+
+                    </style>
+
                     <div class="mega-menu">
                         <ul class="mega-menu-row">
                             <div class="row">
