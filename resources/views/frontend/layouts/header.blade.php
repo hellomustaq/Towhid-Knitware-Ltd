@@ -1,4 +1,5 @@
 @php
+    // for getting all Mother Category
     $mCategoryies=App\MotherCategory::all();
 @endphp
 
