@@ -55,7 +55,7 @@
                                     <h6 class="paddingForMega">{{$mCategory->name}}</h6>
                                     <div class="paddingForMega">
                                         @foreach($mCategory->categories as $category)
-                                        <a href="{{route('products',$category->id)}}"><li>{{$category->name}}</li></a>
+                                        <a class="listsMega" href="{{route('products',$category->id)}}"><li>{{$category->name}}</li></a>
                                         @endforeach
                                     </div>
                                 </div>
