@@ -52,8 +52,9 @@
                         @media (min-width: 1200px){
                             .listsMega {
                                 color: #363636;
+                                text-transform: unset !important;
                                 letter-spacing: unset !important;
-                                font-weight: normal !important;
+                                font-weight: bold !important;
                                 font-size: 13px !important;
                             }
                         }
