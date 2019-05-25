@@ -10,13 +10,16 @@
     <div class="carousel-inner" role="listbox">
         @foreach($sliders as $index => $slider)
         <div class="item {{$index ==0? "active":""}}">
-            <img class="first-slide" src="{{asset('images/slider/'.$slider->name)}}" alt="First slide">
+            <img src="{{asset('images/slider/'.$slider->name)}}" alt="First slide">
             <div class="container">
                 <div class="carousel-caption">
                     
                 </div>
             </div>
         </div>
+        @if($index >= 10)
+            @break
+        @endif
         @endforeach
     </div>
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -85,6 +88,22 @@
     </div>
 </section>
 
+<section class="ls mt-50">
+    <div class="row">
+        <div class="col-md-6">
+            <h3 class="text-center">Know Who We Are</h3>
+            <p class="padd-all-20">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque 
+            </p>
+        </div>
+        <div class="col-md-6">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class=" embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </div>
+</section>
 
 <section class="ls mt-50">
             <h2 class="text-center">Features</h2>
