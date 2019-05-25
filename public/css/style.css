@@ -9,7 +9,11 @@
     color: white;
 }
 
-
+/*carosel indicator*/
+.carousel-indicators {
+    display: none!important;
+}
+/*eof carosel indicator*/
 
 
 
@@ -28,6 +32,12 @@
 
 .mar{
     margin: 5px;
+    }
+.padd-all-20{
+        padding: 20px;
+    }
+.padd-all-10{
+        padding: 10px;
     }
 
 @media (min-width: 1025px) {

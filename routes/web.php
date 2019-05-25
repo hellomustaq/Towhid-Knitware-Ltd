@@ -40,6 +40,7 @@ Route::group(['prefix'=>'admin','middleware'=>'auth'], function(){
 
 	Route::get('/home','HomeController@index');
 	Route::get('/logout','Auth\LoginController@logout')->name('logout');
+	Route::post('/logout','Auth\LoginController@logout')->name('logout');
 	Route::resource('mother-category','MotherCategoryController');
 	Route::get('/mother-category/delete/{id}','MotherCategoryController@delete')->name('mother-category.delete');
 
