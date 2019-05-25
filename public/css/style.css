@@ -6,8 +6,32 @@
 }
 
 .theme-white{
-    color: white;
+    color: white!important;
 }
+
+/*eof main css override*/
+
+.header_white {
+    background-color: #ff6d6de6!important;
+}
+
+
+.section-header{
+    padding: 10px 20px;
+    border-bottom: 5px solid #ff7778;
+}
+.thumbnail-custom{
+    background: #ffffff9e!important;
+}
+
+
+
+.ls{
+    background-color: #ffffff00!important;
+}
+
+/*eof main css override*/
+
 
 /*carosel indicator*/
 .carousel-indicators {

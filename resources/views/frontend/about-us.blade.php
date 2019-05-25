@@ -1,7 +1,7 @@
 @extends('frontend.layouts.master')
 @section('content')
 <section class="ls mt-30">
-	<h2 class="text-center padd-20">About Us</h2>
+	<h2 class="text-center padd-20"><span class="section-header">About Us</span></h2>
 	<p class="mar-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet</p>
 	<div class="row">
 		<div class="col-md-6">
@@ -41,7 +41,7 @@
 	</div>
 </section>
 <section class="ls mt-30">
-	<h2 class="text-center padd-20">Why You Choose Us</h2>
+	<h2 class="text-center padd-20"><span class="section-header">Why You Choose Us</span></h2>
 	<p class="lh-25 padd">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit ametLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit ametLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet</p>
 	<div class="row">
                 <div class="col-md-12">

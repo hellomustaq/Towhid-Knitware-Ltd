@@ -1,6 +1,6 @@
 @extends('frontend.layouts.master')
 @section('content')
-<div id="myCarousel" class="carousel slide" data-ride="carousel" style="max-height: 550px;">
+<div id="myCarousel" class="carousel slide" data-ride="carousel" style="max-height: 550px;width: 100%;margin: 0 auto;">
     <!-- Indicators -->
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class=""></li>
@@ -31,9 +31,9 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
-<section class="ls mt-50">
+<section class="ls">
     <div class=" gallery-container">
-        <h1>Our Portfolio</h1>
+        <h1> <span class="section-header">Our Portfolio</span></h1>
         <p class="page-description text-center">You ware, We made!</p>
         
         <div class="tz-gallery">
@@ -91,8 +91,8 @@
 <section class="ls mt-50">
     <div class="row">
         <div class="col-md-6">
-            <h3 class="text-center">Know Who We Are</h3>
-            <p class="padd-all-20">
+            <h3 class="text-center"><span class="section-header">Know Who We Are</span></h3>
+            <p class="padd-all-20 text-justify">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque 
             </p>
         </div>
@@ -106,7 +106,7 @@
 </section>
 
 <section class="ls mt-50">
-            <h2 class="text-center">Features</h2>
+            <h1 class="text-center mt-50"><span class="section-header">Features</span></h1>
             <div class="row">
                 <div class="col-md-12">
                     <div class="main-timeline2">
@@ -157,10 +157,10 @@
 
 
 <section class="ls mt-50">
-    <h2 class="text-center padd-30">Philosophy</h2>
+    <h2 class="text-center padd-30"><span class="section-header">Philosophy</span></h2>
     <div class="row">
         <div class="col-md-6">
-            <div class="thumbnail mar ez-animate" data-animation="zoomIn">
+            <div class="thumbnail thumbnail-custom mar ez-animate" data-animation="zoomIn">
               <div class="caption">
                 <span><i class="fa fa-globe fa-5x theme-color"></i></span>
                 
@@ -171,7 +171,7 @@
             </div>
         </div>
         <div class="col-md-6">
-            <div class="thumbnail mar ez-animate" data-animation="zoomIn">
+            <div class="thumbnail thumbnail-custom mar ez-animate" data-animation="zoomIn">
               <div class="caption">
                 <span><i class="fa fa-rocket fa-5x theme-color"></i></span>
                 <h3>Our Mission</h3>
@@ -184,7 +184,7 @@
 </section>
 
 <section class="ls mt-50 padd">
-    <h2 class="text-center padd-30">Our Proud Partners</h2>
+    <h2 class="text-center padd-30"><span class="section-header">Our Proud Partners</span></h2>
     <div class="customer-logos">
   <div class="slide"><img src="{{asset('assets/images/partners/01.jpg')}}"></div>
   <div class="slide"><img src="{{asset('assets/images/partners/02.jpg')}}"></div>

@@ -38,16 +38,16 @@
                     <nav class="mainmenu_wrapper">
                         <ul class="mainmenu nav sf-menu">
                             
-                            <li class="active"> <a href="{{url('/')}}">Home</a>
+                            <li class=""> <a class="theme-white" href="{{url('/')}}">Home</a>
                         </li>
-                        <li class="active"> <a href="index-2.html">Service</a>
+                        <li class=""> <a class="theme-white" href="index-2.html">Service</a>
                         <ul>
                             <li> <a href="index-2.html">Home</a> </li>
                             <li> <a href="">Home static intro</a> </li>
                             <li> <a href="">Home single page</a> </li>
                         </ul>
                     </li>
-                    <li> <a href="#">Products <i class="ion-md-arrow-dropdown"></i></a>
+                    <li> <a class="theme-white" href="#">Products <i class="ion-md-arrow-dropdown"></i></a>
 
                     <style>
                         @media (min-width: 1200px){
@@ -83,10 +83,10 @@
                 <!-- eof features -->
                 <!-- contacts -->
                 <li>
-                    <a href="{{url('/about-us')}}">About</a>
+                    <a class="theme-white" href="{{url('/about-us')}}">About</a>
                 </li>
                 <li>
-                    <a href="{{url('/contact')}}">Contact</a>
+                    <a class="theme-white" href="{{url('/contact')}}">Contact</a>
                 </li>
                 <!-- eof contacts -->
             </ul>
@@ -94,7 +94,7 @@
         <!-- eof main nav -->
         <!-- header toggler --><span class="toggle_menu"><span></span></span>
     </div>
-    <div class="header_right_buttons display_table_cell text-right hidden-xs"> <a href="{{url('/contact')}}" class="theme_button color1">Contact</a> </div>
+    <div  class="header_right_buttons display_table_cell text-right hidden-xs" > <a href="{{url('/contact')}}" style="border-color: white!important;" class="theme-white theme_button color1">Contact</a> </div>
 </div>
 </div>
 </div>
