@@ -98,7 +98,7 @@
                     <ul class="navbar-nav my-lg-0">
                         <!-- Profile -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-muted  " href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="{{asset('admin/images/users/5.jpg')}}" alt="user" class="profile-pic" /></a>
+                            <a class="nav-link dropdown-toggle text-muted  " href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="{{asset('admin/images/users/3.png')}}" alt="user" class="profile-pic" /></a>
                             <div class="dropdown-menu dropdown-menu-right animated zoomIn">
                                 <ul class="dropdown-user">
                                     <li><a href="{{route('logout')}}"><i class="fa fa-power-off"></i> Logout</a></li>
@@ -136,6 +136,12 @@
                                 <li><a href="{{route('slider.create')}}">Add Slider</a></li>
                                 <li><a href="{{route('slider.index')}}">Show All Slider</a></li>
                             </ul>
+                        </li>
+
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('register') }}"><i class="fa fa-envelope"></i>Create New User</a>
                         </li>
                     </ul>
                 </nav>
