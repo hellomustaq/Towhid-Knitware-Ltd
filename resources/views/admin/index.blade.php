@@ -1,76 +1,61 @@
+@php
+$sliders=App\Slider::orderBy('created_at','DESC')->get();
+@endphp
+
 @extends('admin.layouts.master')
 @section('content')
-<!-- Bread crumb -->
-<div class="row page-titles">
-    <div class="col-md-5 align-self-center">
-    <h3 class="text-primary">Dashboard</h3> </div>
-    <div class="col-md-7 align-self-center">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-            <li class="breadcrumb-item active">Dashboard</li>
-        </ol>
+<div class="row ">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <div class="tz-gallery">
+            <h2 class="text-center">Showing "Sliders"</h2>
+            <div class="row">
+                @foreach($sliders as $image)
+                <div class="animated  col-sm-12 col-md-6">
+                    <div style="margin: 10px;">
+                        <a class="lightbox" href="{{asset('images/slider/'.$image->name)}}">
+                        <img src="{{asset('images/slider/'.$image->name)}}" alt="Park">
+                    </a>
+                    <a id="deleteBtn" data-id="{{$image->id}}" style="margin-top: -30px;" href="" class="btn btn-block btn-danger">Delete</a>
+                    </div>
+                    
+                </div>
+                @endforeach
+                
+            </div>
+        </div>
+        <div class="col-md-1"></div>
     </div>
 </div>
-<!-- End Bread crumb -->
-<!-- Container fluid  -->
-<div class="container-fluid">
-    <!-- Start Page Content -->
-    <div class="row">
-        <div class="col-md-3">
-            <div class="card p-30">
-                <div class="media">
-                    <div class="media-left meida media-middle">
-                        <span><i class="fa fa-usd f-s-40 color-primary"></i></span>
-                    </div>
-                    <div class="media-body media-text-right">
-                        <h2>568120</h2>
-                        <p class="m-b-0">Total Revenue</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card p-30">
-                <div class="media">
-                    <div class="media-left meida media-middle">
-                        <span><i class="fa fa-shopping-cart f-s-40 color-success"></i></span>
-                    </div>
-                    <div class="media-body media-text-right">
-                        <h2>1178</h2>
-                        <p class="m-b-0">Sales</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card p-30">
-                <div class="media">
-                    <div class="media-left meida media-middle">
-                        <span><i class="fa fa-archive f-s-40 color-warning"></i></span>
-                    </div>
-                    <div class="media-body media-text-right">
-                        <h2>25</h2>
-                        <p class="m-b-0">Stores</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card p-30">
-                <div class="media">
-                    <div class="media-left meida media-middle">
-                        <span><i class="fa fa-user f-s-40 color-danger"></i></span>
-                    </div>
-                    <div class="media-body media-text-right">
-                        <h2>847</h2>
-                        <p class="m-b-0">Customer</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+@endsection
 
-    <!-- End PAge Content -->
-</div>
-<!-- End Container fluid  -->
+@section('script')
+<script>
+    $(document).on('click', '#deleteBtn', function(el) {
+        el.preventDefault();
+        var postId = $(this).data("id");
+
+        swal({
+          title: "Are you sure?",
+          text: "Once deleted, you will not be able to recover this imaginary file!",
+          icon: "warning",
+          buttons: true,
+          dangerMode: true,
+        })
+        .then((willDelete) => {
+          if (willDelete) {
+            swal("Deleting...", {
+              icon: "success",
+            });
+            window.location.href = window.location.href = "slider/delete/" + postId;
+          } 
+        });
+
+    });
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+baguetteBox.run('.tz-gallery');
+</script>
 @endsection
