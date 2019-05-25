@@ -63,17 +63,5 @@
 
   });
 
-
-
-  // $('form').ajaxForm(function() 
-
-  //  {
-
-  //   alert("Uploaded SuccessFully");
-
-  //  }); 
-
-
-
 </script>
 @endsection

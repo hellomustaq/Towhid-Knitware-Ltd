@@ -131,6 +131,12 @@
                                 <li><a href="{{route('image.index')}}">Show All Images</a></li>
                             </ul>
                         </li>
+                        <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-envelope"></i><span class="hide-menu">Slider</span></a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="{{route('slider.create')}}">Add Slider</a></li>
+                                <li><a href="{{route('slider.index')}}">Show All Slider</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </nav>
                 <!-- End Sidebar navigation -->
