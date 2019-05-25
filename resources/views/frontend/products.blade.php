@@ -1,7 +1,7 @@
 @extends('frontend.layouts.master')
 @section('content')
 <section class="ls mt-30">
-    <h1 class="text-center">{{$category->name}}</h1>
+    <h1 class="text-center"><span class="section-header">{{$category->name}}</span></h1>
     
     <div class="tz-gallery">
         <div class="row">
