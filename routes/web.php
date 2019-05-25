@@ -1,5 +1,6 @@
 <?php
 
+use App\Slider;
 use App\Category;
 
 /*
@@ -14,7 +15,8 @@ use App\Category;
 */
 
 Route::get('/', function () {
-    return view('frontend.index');
+	$sliders=Slider::all();
+    return view('frontend.index',compact('sliders'));
 });
 
 Route::get('/about-us', function () {
@@ -47,5 +49,8 @@ Route::group(['prefix'=>'admin','middleware'=>'auth'], function(){
 	Route::get('image/showSpecific/','ImageController@showSpecific')->name('image.show.specific');
 	Route::get('image/delete/{id}','ImageController@delete')->name('image.del');
 	Route::resource('image','ImageController');
+
+	Route::get('/slider/delete/{id}','SliderController@delete')->name('slider.delete');
+	Route::resource('slider','SliderController');
 	
 });

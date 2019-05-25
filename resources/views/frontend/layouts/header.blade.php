@@ -16,7 +16,7 @@
             <div class="col-xs-12 col-md-6 col-lg-4 col-lg-push-4 text-center text-md-right">
                 <div class="inline-content grey darklinks"> <span>
                     <i class="fa fa-map-marker highlight rightpadding_5" aria-hidden="true"></i>
-                    Barabag Mirpur-2, Dhaka-1216
+                    Borobag Mirpur-2, Dhaka-1216
                 </span> </div>
             </div>
             <div class="col-xs-12 col-lg-4 col-lg-pull-4 text-center">
@@ -30,7 +30,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12 display-flex v-center">
-                <div class="header_left_logo display_table_cell"> <a href="index.html" class="logo">
+                <div class="header_left_logo display_table_cell"> <a href="{{url('/')}}" class="logo">
                     <img src="{{asset('images/towhidLogo.png')}}" alt="">
                 </a> </div>
                 <div class="header_mainmenu display_table_cell text-center">

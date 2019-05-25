@@ -8,30 +8,16 @@
         <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
     </ol>
     <div class="carousel-inner" role="listbox">
-        <div class="item">
-            <img class="first-slide" src="{{asset('assets/images/gallery/single/01.jpg')}}" alt="First slide">
+        @foreach($sliders as $index => $slider)
+        <div class="item {{$index ==0? "active":""}}">
+            <img class="first-slide" src="{{asset('images/slider/'.$slider->name)}}" alt="First slide">
             <div class="container">
                 <div class="carousel-caption">
                     
                 </div>
             </div>
         </div>
-        <div class="item">
-            <img class="second-slide" src="{{asset('assets/images/gallery/single/07.jpg')}}" alt="Second slide">
-            <div class="container">
-                <div class="carousel-caption">
-                    
-                </div>
-            </div>
-        </div>
-        <div class="item active">
-            <img class="third-slide" src="{{asset('assets/images/gallery/single/08.jpg')}}" alt="Third slide">
-            <div class="container">
-                <div class="carousel-caption">
-                    
-                </div>
-            </div>
-        </div>
+        @endforeach
     </div>
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
         <i class="fa fa-arrow-left"></i>
