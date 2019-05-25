@@ -15,7 +15,7 @@ use App\Category;
 */
 
 Route::get('/', function () {
-	$sliders=Slider::all();
+	$sliders=Slider::orderBy('created_at','DESC')->get();
     return view('frontend.index',compact('sliders'));
 });
 
